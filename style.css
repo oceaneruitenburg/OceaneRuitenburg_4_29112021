@@ -90,10 +90,10 @@ a:hover {
     right: 0;
 }
 
-.texture-paper::before {
+/*.texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
-}
+}*/
 
 .b-parallax {
     background-attachment: fixed;
@@ -476,7 +476,8 @@ button {
 }
 
 .icon-md {
-    font-size: 30px!important;
+    font-size: 49px!important;
+    margin-bottom: 20px;
 }
 
 .icon-lg {
@@ -700,13 +701,15 @@ p {
 }
 
 .social {
-    max-width: 400px;
-    margin: auto auto auto auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
 }
 
 h2 {
     font-size: 22px;
     line-height: 1.4em;
+    position: relative;
 }
 
 h3 {
@@ -753,8 +756,8 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
-    padding: 40px 40px 40px 40px;
+    background-color: #5a2005;
+    padding: 40px 40px 20px 40px;
 }
 
 .bold-link {
@@ -771,7 +774,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #fa5306;
+    background-color: #5a2005;
 }
 
 .tc-white {
@@ -779,7 +782,7 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #fa5306;
+    background: #5a2005;
     color: #FFFFFF!important;
 }
 
@@ -813,9 +816,9 @@ h4 {
     background-image: url("img/dots-bg.png");
 }
 
-.bg-lines-h2-bg {
+/*.bg-lines-h2-bg {
     background-image: url("img/lines-h2-bg.png");
-}
+}*/
 
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere.jpg");
@@ -1039,4 +1042,12 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+/*MODIFICATIONS PERSONNELLES (AJouts)*/
+
+.col-sm-12 p {
+    margin-top: 20px;
+    margin-bottom:50px;
+    font-size: 20px;
 }
