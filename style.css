@@ -756,7 +756,7 @@ h4 {
 }
 
 .black-background {
-    background-color: #5a2005;
+    background-color: #F38E4F;
     padding: 40px 40px 20px 40px;
 }
 
@@ -774,15 +774,15 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #5a2005;
+    background-color: #F38E4F;
 }
 
 .tc-white {
-    color: rgb(252,207,111)!important;
+    color: #303030!important;
 }
 
 .btn-atomic-tangerine {
-    background: #5a2005;
+    background: #303030;
     color: #FFFFFF!important;
 }
 
@@ -792,7 +792,7 @@ h4 {
 }
 
 .ltc-white {
-    color: rgb(252,207,111)!important;
+    color: #303030!important;
 }
 
 .ltc-white:hover {
@@ -1049,5 +1049,21 @@ h4 {
 .col-sm-12 p {
     margin-top: 20px;
     margin-bottom:50px;
-    font-size: 20px;
+    font-size: 15px;
+}
+
+.badge-ban {
+    background-color: #F38E4F;
+    padding: 20px;
+}
+
+.contact {
+    background-color: #F38E4F;
+    padding: 20px;
+    background-size: 50%;
+}
+
+.bloctaille {
+    width: 60%;
+    margin: auto;
 }
