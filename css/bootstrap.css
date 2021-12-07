@@ -4284,17 +4284,17 @@ tbody.collapse.in {
     transition-property: height, visibility
 }
 
-.caret {
+/*.caret {
     display: inline-block;
     width: 0;
     height: 0;
     margin-left: 2px;
     vertical-align: middle;
     border-top: 4px dashed;
-    border-top: 4px solid\9;
+    border-top: 4px solid;
     border-right: 4px solid transparent;
     border-left: 4px solid transparent
-}
+}*/
 
 .dropdown,
 .dropup {
@@ -4372,41 +4372,41 @@ tbody.collapse.in {
     color: #777
 }
 
-.dropdown-menu>.disabled>a:focus,
+/*.dropdown-menu>.disabled>a:focus,
 .dropdown-menu>.disabled>a:hover {
     text-decoration: none;
     cursor: not-allowed;
     background-color: transparent;
     background-image: none;
     filter: progid:DXImageTransform.Microsoft.gradient(enabled=false)
-}
+}*/
 
-.open>.dropdown-menu {
+/*.open>.dropdown-menu {
     display: block
-}
+}*/
 
-.open>a {
+/*.open>a {
     outline: 0
-}
+}*/
 
-.dropdown-menu-right {
+/*.dropdown-menu-right {
     right: 0;
     left: auto
-}
+}*/
 
-.dropdown-menu-left {
+/*.dropdown-menu-left {
     right: auto;
     left: 0
-}
+}*/
 
-.dropdown-header {
+/*.dropdown-header {
     display: block;
     padding: 3px 20px;
     font-size: 12px;
     line-height: 1.42857143;
     color: #777;
     white-space: nowrap
-}
+}*/
 
 .dropdown-backdrop {
     position: fixed;
@@ -5129,7 +5129,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
     max-height: 340px
 }
 
-@media (max-device-width:480px) and (orientation:landscape) {
+@media (max-width:480px) and (orientation:landscape) {
     .navbar-fixed-bottom .navbar-collapse,
     .navbar-fixed-top .navbar-collapse {
         max-height: 200px
@@ -7687,7 +7687,7 @@ button.close {
     margin: 1px;
     text-indent: -999px;
     cursor: pointer;
-    background-color: #000\9;
+    background-color: #0009;
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid #fff;
     border-radius: 10px
